@@ -49,6 +49,7 @@ def hit?
   elsif get_user_input == 's'
     code
   else
+    
     invalid_command
   end
 
