@@ -74,8 +74,7 @@ def runner
   while initial_round < 21 do
     hit?(initial_round)
   end
-  
 
-  end
-end
+
+
 end
