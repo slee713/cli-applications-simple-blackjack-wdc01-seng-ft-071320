@@ -17,7 +17,7 @@ end
 
 def prompt_user
   # code #prompt_user here
-  puts "Type 'h' to hit or 's' to stay"
+  return "Type 'h' to hit or 's' to stay"
 
 end
 
