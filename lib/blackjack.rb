@@ -39,19 +39,19 @@ def initial_round
   return sum
 end
 
-def hit?
+def hit? (number)
   # code hit? here
   prompt_user
   get_user_input
-  initial_round
   if get_user_input == 'h'
     deal_card
+    number += deal_card
   elsif get_user_input == 's'
-    code
+    number
   else
     invalid_command
   end
-
+  number
 end
 
 def invalid_command
@@ -67,4 +67,11 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  if display_card_total <21
+    hits?
+    display_card_total
+  elsif display_card_total >= 21
+  end_game
 end
