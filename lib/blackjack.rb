@@ -9,9 +9,9 @@ def deal_card
 
 end
 
-def display_card_total (number)
+def display_card_total (card_total)
   # code #display_card_total here
-
+  puts "Your cards add up tp #{card_total}"
 end
 
 def prompt_user
