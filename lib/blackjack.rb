@@ -71,10 +71,11 @@ def runner
   # code runner here
   welcome
   initial_round
-  if display_card_total <21
-    hits?
-    display_card_total
-  elsif display_card_total >= 21
-  end_game
+  while initial_round < 21 do
+    hit?(initial_round)
+  end
+  
+    
+  end
 end
 end
