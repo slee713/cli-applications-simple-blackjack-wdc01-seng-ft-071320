@@ -32,11 +32,15 @@ end
 
 def initial_round
   # code #initial_round here
-
+  hand1 = deal_card
+  hand2 = deal_card
+  sum = hand1 + hand2
+  display_card_total(sum)
 end
 
 def hit?
   # code hit? here
+
 end
 
 def invalid_command
