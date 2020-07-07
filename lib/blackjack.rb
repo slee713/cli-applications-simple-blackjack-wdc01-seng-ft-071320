@@ -75,7 +75,7 @@ def runner
     hit?(initial_round)
   end
   
-    
+
   end
 end
 end
