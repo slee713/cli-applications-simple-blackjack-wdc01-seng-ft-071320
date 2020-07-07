@@ -43,13 +43,13 @@ def hit?
   # code hit? here
   prompt_user
   get_user_input
-  return initial_round
+  initial_round
   if get_user_input == 'h'
     deal_card
   elsif get_user_input == 's'
     code
   else
-    
+
     invalid_command
   end
 
