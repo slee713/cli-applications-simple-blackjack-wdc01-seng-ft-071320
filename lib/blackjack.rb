@@ -34,8 +34,9 @@ def initial_round
   # code #initial_round here
   hand1 = deal_card
   hand2 = deal_card
-  return sum = hand1 + hand2
+  sum = hand1 + hand2
   display_card_total(sum)
+  return sum
 end
 
 def hit?
