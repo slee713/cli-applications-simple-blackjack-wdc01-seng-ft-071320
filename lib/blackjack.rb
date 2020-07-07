@@ -69,11 +69,6 @@ end
 
 def runner
   # code runner here
-  welcome
-  initial_round
-  while initial_round < 21 do
-    hit?(initial_round)
-  end
 
 
 
