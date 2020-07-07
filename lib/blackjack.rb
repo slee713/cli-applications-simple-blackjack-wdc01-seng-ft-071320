@@ -1,3 +1,4 @@
+require 'pry'
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -43,7 +44,7 @@ def hit? (number)
   # code hit? here
   prompt_user
   get_user_input
-
+  binding.pry
   if get_user_input == 'h'
     deal_card
     return total += deal_card
