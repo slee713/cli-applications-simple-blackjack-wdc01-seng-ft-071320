@@ -6,12 +6,12 @@ end
 def deal_card
   # code #deal_card here
   hand = rand(1...11)
-  
+
 end
 
 def display_card_total (number)
   # code #display_card_total here
-  
+
 end
 
 def prompt_user
