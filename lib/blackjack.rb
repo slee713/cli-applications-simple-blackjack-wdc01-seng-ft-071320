@@ -44,7 +44,7 @@ def hit? (number)
   total = number
   prompt_user
   get_user_input
-  
+
   if get_user_input == 'h'
     deal_card
     return total += deal_card
