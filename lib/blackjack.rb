@@ -41,7 +41,6 @@ end
 
 def hit? (number)
   # code hit? here
-  total = number
   prompt_user
   get_user_input
 
